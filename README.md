@@ -1,2 +1,2 @@
 # landing-page
-Repositório da Lansing Page do projecto Coding Dojo Angola.
+Repositório da Landing Page do projecto Coding Dojo Angola.
