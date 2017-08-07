@@ -1,0 +1,9 @@
+h1 {
+  color: #0090B2;
+  &:hover {
+    color: #FF7A00;
+  }
+  &:active {
+    color: #B25500;
+  }
+}
