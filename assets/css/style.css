@@ -198,31 +198,6 @@ section {
     section.features .feature-item i {
       font-size: 80px;
       color: #000; }
-  section.cta {
-    position: relative;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    background-image: url("../img/bg-cta.jpg");
-    padding: 250px 0; }
-    section.cta .cta-content {
-      position: relative;
-      z-index: 1; }
-      section.cta .cta-content h2 {
-        margin-top: 0;
-        margin-bottom: 25px;
-        color: white;
-        max-width: 450px;
-        font-size: 50px; }
-    section.cta .overlay {
-      height: 100%;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
-      position: absolute;
-      top: 0;
-      left: 0; }
   section.contact {
     text-align: center; }
     section.contact h2 {
@@ -332,3 +307,10 @@ img::selection, img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: #222222; }
+
+iframe {
+  width: 100%;
+  height: 100%; }
+
+.novo {
+  height: 600px; }
