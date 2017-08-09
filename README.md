@@ -6,7 +6,7 @@ Repositório da Landing Page do projecto Coding Dojo Angola.
 Tendo o NodeJS instalado na sua máquina, abra o terminal do git e execute:
 
 	// Copiando o repositório
-	git clone https://github.com/codingdojoangola/landing-page.git
+	git clone https://github.com/codingdojoangola/codingdojoangola.github.io.git
 
 	// Entre na directória do projecto  
 	cd landing-page
