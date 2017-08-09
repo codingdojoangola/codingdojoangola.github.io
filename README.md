@@ -22,8 +22,10 @@ Tendo o NodeJS instalado na sua máquina, abra o terminal do git e execute:
 	assets
 		|_/bootstrap
 		|_/css
+			|_style.css
 		|_/img
 		|_/js
+			|_script.js
 	src
 		|_/sass
 			|_style.scss
@@ -32,3 +34,5 @@ Tendo o NodeJS instalado na sua máquina, abra o terminal do git e execute:
 	|_gulpfile.js
 	|_package.json
 	|_LICENSE
+
+Utilize os ficheiros "index.html", style.scss e script.js para fazer as alterações.
