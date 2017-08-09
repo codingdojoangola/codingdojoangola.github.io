@@ -35,4 +35,4 @@ Tendo o NodeJS instalado na sua máquina, abra o terminal do git e execute:
 	|_package.json
 	|_LICENSE
 
-Utilize os ficheiros "index.html", style.scss e script.js para fazer as alterações.
+Utilize os ficheiros `index.html`, `style.scss` e `script.js` para fazer as alterações.
