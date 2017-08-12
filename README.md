@@ -9,7 +9,7 @@ Tendo o NodeJS instalado na sua máquina, abra o terminal do git e execute:
 	git clone https://github.com/codingdojoangola/codingdojoangola.github.io.git
 
 	// Entre na directória do projecto  
-	cd landing-page
+	cd codingdojoangola.github.io
 
 	// Instale as dependências
 	npm i -g gulp && npm i
