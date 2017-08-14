@@ -25,7 +25,8 @@
     "gulp": "^3.9.1"
   },
   "devDependencies": {
-    "gulp-livereload": "^3.8.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-imagemin": "^3.3.0",
     "gulp-sass": "^3.1.0"
   }
 }
