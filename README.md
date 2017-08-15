@@ -5,34 +5,53 @@ Repositório da Landing Page do projecto Coding Dojo Angola.
 
 Tendo o NodeJS instalado na sua máquina, abra o terminal do git e execute:
 
-	// Copiando o repositório
-	git clone https://github.com/codingdojoangola/codingdojoangola.github.io.git
 
-	// Entre na directória do projecto  
-	cd codingdojoangola.github.io
+* Faça o [fork](https://github.com/codingdojoangola/codingdojoangola.github.io/fork) do projeto para a sua conta
+* Faça o clone do repositório para sua máquina:
+  `git clone git@github.com:seunome-do-github/codingdojoangola.github.io.git`
+*Entre no directório do projecto
+  `cd codingdojoangola.github.io`
+* Crie um branch baseado na branch **develop**
+  `git checkout -b nome-da-feature-nova`
 
-	// Instale as dependências
-	npm i -g gulp && npm i
+ * Caso ainda não tenha o gulp instalado instale com o comando:
+  `npm i -g gulp`
+ * Instale as dependẽncias
+  `npm i`
 
-	// Execute o task runner com o comando
-	gulp watch
+* Execute o task runner com o comando (Para executar todas e continuar aguardando por mudanças)
+  `gulp`
 
-## Organização dos ficheiros / directórias
+ 	- As tarefas definidas são:
 
-	assets
-		|_/bootstrap
-		|_/css
-			|_style.css
-		|_/img
-		|_/js
-			|_script.js
-	src
-		|_/sass
-			|_style.scss
-	|_index.html
-	|_.gitignore
-	|_gulpfile.js
-	|_package.json
-	|_LICENSE
+ `gulp webserver`, `gulp styles`, `gulp imagemin`, `gulp watch`
+
+ |Comando| Descrição|
+ | :---: | --- |
+ | `gulp webserver` | Inicia o servidor local com gulp-connect |
+ | `gulp styles` | Compila o *Sass* para *css* e Minifica o css gerado |
+ | `gulp imagemin` | Minfiva as imagens diminuindo o tamanho das mesmas |
+ | `gulp watch` | Aguarda por mudanças nos ficheiros (**scss** e **imagens**) para reexecutar cada tarefa acima |
+
+
+* Organização dos ficheiros / directórios
+>
+```
+ assets
+   |_/bootstrap
+   |_/css
+   |_style.css
+   |_/img
+   |_/js
+   |_script.js
+ src
+   |_/sass
+   |_style.scss
+ |_index.html
+ |_.gitignore
+ |_gulpfile.js
+ |_package.json
+ |_LICENSE
+ ```
 
 Utilize os ficheiros `index.html`, `style.scss` e `script.js` para fazer as alterações.
