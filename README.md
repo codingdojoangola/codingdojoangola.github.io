@@ -11,7 +11,7 @@ Tendo o NodeJS instalado na sua máquina, abra o terminal do git e execute:
   `git clone git@github.com:seunome-do-github/codingdojoangola.github.io.git`
 *Entre no directório do projecto
   `cd codingdojoangola.github.io`
-* Crie um branch baseado na branch **develop**
+* Crie um branch baseado no branch **develop**
   `git checkout -b nome-da-feature-nova`
 
  * Caso ainda não tenha o gulp instalado instale com o comando:
@@ -30,7 +30,7 @@ Tendo o NodeJS instalado na sua máquina, abra o terminal do git e execute:
  | :---: | --- |
  | `gulp webserver` | Inicia o servidor local com gulp-connect |
  | `gulp styles` | Compila o *Sass* para *css* e Minifica o css gerado |
- | `gulp imagemin` | Minfiva as imagens diminuindo o tamanho das mesmas |
+ | `gulp imagemin` | Minfica as imagens diminuindo o tamanho das mesmas |
  | `gulp watch` | Aguarda por mudanças nos ficheiros (**scss** e **imagens**) para reexecutar cada tarefa acima |
 
 
