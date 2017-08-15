@@ -266,21 +266,6 @@ section {
         font-size: 80px;
         color: #000;
       }
-      img {
-        border-radius: 50%;
-        width: 200px;
-        height: 200px;
-        -webkit-transition: all 1s ease;
-        -moz-transition: all 1s ease;
-        -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-        transition: all 1s ease;
-      }
-      img:hover {
-        -webkit-transform:rotate(360deg);
-        -moz-transform:rotate(360deg);
-        -o-transform:rotate(360deg);
-      }
     }
   }
   &.contact {
