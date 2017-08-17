@@ -212,7 +212,7 @@ header {
 
 @media (min-width: 992px) {
   header .header-content .header-content-inner h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -427,4 +427,7 @@ iframe {
 }
 .novo {
 	height:600px;
+}
+.navbar-default .navbar-header .navbar-brand{
+  color: #000;
 }
