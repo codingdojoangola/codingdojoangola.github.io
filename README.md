@@ -1,4 +1,4 @@
-[![Slack](https://img.shields.io/badge/Coding%20Dojo%20Angola-slack-blue.svg)](https://codingdojoangola.now.sh)
+[![license](https://img.shields.io/badge/license-GNU%20-brightgreen.svg)](https://github.com/codingdojoangola/codingdojoangola.github.io/blob/develop/LICENSE) [![Slack](https://img.shields.io/badge/Coding%20Dojo%20Angola-slack-blue.svg)](https://codingdojoangola.now.sh) 
 
 # Coding Dojo Angola Landing Page
 Repositório da Landing Page do projecto Coding Dojo Angola.
