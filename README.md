@@ -1,4 +1,6 @@
-# landing-page
+[![Slack](https://img.shields.io/badge/Coding%20Dojo%20Angola-slack-blue.svg)](https://codingdojoangola.now.sh)
+
+# Coding Dojo Angola Landing Page
 Repositório da Landing Page do projecto Coding Dojo Angola.
 
 ## Contribuições
@@ -22,7 +24,7 @@ Tendo o NodeJS instalado na sua máquina, abra o terminal do git e execute:
 * Execute o task runner com o comando (Para executar todas e continuar aguardando por mudanças)
   `gulp`
 
- 	- As tarefas definidas são:
+  - As tarefas definidas são:
 
  `gulp webserver`, `gulp styles`, `gulp imagemin`, `gulp watch`
 
@@ -36,6 +38,25 @@ Tendo o NodeJS instalado na sua máquina, abra o terminal do git e execute:
 
 * Organização dos ficheiros / directórios
 >
+```
+ assets
+   |_/bootstrap
+   |_/css
+   |_style.css
+   |_/img
+   |_/js
+   |_script.js
+ src
+   |_/sass
+   |_style.scss
+ |_index.html
+ |_.gitignore
+ |_gulpfile.js
+ |_package.json
+ |_LICENSE
+ ```
+
+Utilize os ficheiros `index.html`, `style.scss` e `script.js` para fazer as alterações.
 ```
  assets
    |_/bootstrap
