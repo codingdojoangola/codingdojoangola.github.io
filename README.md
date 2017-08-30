@@ -57,22 +57,3 @@ Tendo o NodeJS instalado na sua máquina, abra o terminal do git e execute:
  ```
 
 Utilize os ficheiros `index.html`, `style.scss` e `script.js` para fazer as alterações.
-```
- assets
-   |_/bootstrap
-   |_/css
-   |_style.css
-   |_/img
-   |_/js
-   |_script.js
- src
-   |_/sass
-   |_style.scss
- |_index.html
- |_.gitignore
- |_gulpfile.js
- |_package.json
- |_LICENSE
- ```
-
-Utilize os ficheiros `index.html`, `style.scss` e `script.js` para fazer as alterações.
